@@ -1,11 +1,8 @@
 {
   "name": "codespaces-with-mise",
-  // ほぼ GitHub デフォルト環境
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-
+  // ImageはGithubデフォルトのものを使う
   // 最初のコンテナ作成時に一回だけ実行される
   "onCreateCommand": "curl https://mise.run | sh",
-
   "customizations": {
     "vscode": {
       "settings": {
@@ -13,7 +10,7 @@
         "terminal.integrated.defaultProfile.linux": "bash"
       },
       "extensions": [
-        "ms-python.python",
+        "ms-python.python"
       ]
     }
   }
