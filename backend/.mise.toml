@@ -1,2 +1,5 @@
 [tools]
 python = "3.12.12"
+
+[env]
+_.python.venv = { path = ".venv_backend", create = true } # create the venv if it doesn't exist
